@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form>
+    <fieldset>
+        <legend><b>personal Information</b></legend> 
+        <label for="name"> First Name:</label>
+        <input type="text" name="name" placeholder="Enter your first name" id="name" />
+        <br />
+        <br />
+        <label for="name">Last Name:</label>
+        <input type="text" name="name" placeholder="Enter your last name" />
+        <br />
+        <br />
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="Enter your mail" />
+        <br />
+        <br />
+        <label for="tel">Number:</label>
+        <input type="tel" name="email" placeholder="Enter your mail" />
+        <br />
+        <br />
+        <label for="address">Address:</label>
+        <input type="text" name="address" placeholder="Enter your address" />
+        <br />
+        <br />
+        <label for="gender">Gender:</label>
+        <input type="radio" name="id">Female
+        <input type="radio" name="id">Male
+        <br />
+        <br />
+        <label for="D.O.B">D.O.B:</label>
+        <input type="date">
+        <br />
+        <br />
+        <input type="Submit" value="Submit" />
+    </fieldset>
+    <fieldset>
+        <legend><b>Education Section</b></legend>
+        <label for="degree">Degree:</label>
+        <input type="text" name="degree" placeholder="enter your degree" />
+        <br />
+        <br />
+    </fieldset>
+    <br />
+    <br />
+
+    <!--text to take multiline input from user-->
+    <textarea name="" id="" placeholders="enter your feedback...." rows="4" cols="10"></textarea>
+
+    <!--button method-->
+    <input type="submit" value="submit" />
+    <button>click here to submit</button>
+
+
+    <br /><br /><br />
+
+    <!--how to make dropdown-->  
+    <!--using select and option element-->
+
+    <select name="country" >
+        <option value="us">US</option>
+        <option value="uk">UK</option>
+        <option value="india">India</option>
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+    </select>  
+    
+    <br><br>
+
+
+    <!--optgroup to categorize options-->
+    <select name="Vehicles">
+        <optgroup label="Cars">
+            <option value="swift">Swift</option>
+            <option value="alto">Alto</option>
+        </optgroup>
+        <optgroup label="Bikes">
+            <option value="pulser">Pulser</option>
+            <option value="duke">Duke</option>
+        </optgroup>
+        <optgroup label="Trucks">
+            <option value="tata">TATA Pickup</option>
+            <option value="mahindra">Mahindra</option>
+        </optgroup>
+        
+        
+
+    </select>
+</form>
+
+</body>
+</html>

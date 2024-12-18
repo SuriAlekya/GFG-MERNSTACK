@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--task:make a dropdown for a kitchen that offer multiple dishes.
+    try to useoptgroup to categorize the dishes.-->
+
+    <!--solution-->
+    <form>
+        <fieldset>
+            <legend><b>Dishes that we offer</b></legend>
+            <select name="" id="">
+                <option value="1">Biryani</option>
+                <option value="2">Pulao</option>
+                <option value="3">friedrice</option>
+                <option value="4">noodles</option>
+                <option value="5">pasta</option>
+                <option value="6">pizza</option>
+                <option value="7">burger</option>
+                <option value="8">haleem</option>
+                <option value="9">rameen</option>
+                <option value="10">kabab</option>
+             </select>
+        </fieldset>
+        <br />
+        <fieldset>
+            <legend>dishes we offer</legend>
+            <select name="" id="">
+                <optgroup label="veg">
+                    <option value="">panner</option>
+                    <option value="">aloo</option>
+                    <option value="">gobhi</option>
+                </optgroup>
+                <optgroup label="non-veg">
+                    <option value="">chicken</option>
+                    <option value="">egg</option>
+                    <option value="">prawns</option>
+                </optgroup>
+                <optgroup label="vegan">
+                    <option value="">honey</option>
+                    <option value="">bread</option>
+                    <option value="">dish 3</option>
+                </optgroup>
+                
+            </select>
+        </fieldset>
+
+
+
+
+
+        <!--datalist tag in html form-->
+        <input list="ice-cream-flavours" id="ice-cream-choice" name="ice-cream-choice" />
+        <datalist id="ice-cream-flavours">
+                   <option value="chocolate"></option>
+                    <option value="coconut"></option>
+                    <option value="mint"></option>
+                    <option value="strawberry"></option>
+                    <option value="vanilla"></option>
+                    
+
+        </datalist>
+    </form>
+    
+</body>
+</html>

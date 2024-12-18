@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!-- <style>
+     h1{
+            color: red;
+        }
+        h2{
+            color: blue;
+        }
+        h1{
+            color: yellow;
+        }
+        p{
+            color: green;
+        }
+  </style>-->
+
+  <!--universal selector-->
+  <!--it used to target whole document in on go 
+
+
+  <style>
+   *{
+        color: red;
+        font-style: italic;
+        text-align: center;
+        text-transform:capatalize;
+    }
+  </style>-->
+
+<!--type selector to target similar kind of tag or element
+ <style>
+    h1{
+        color: red;
+    }
+    h2{
+        color: pink;
+    }
+    h3{
+        color: green;
+    }
+    p{
+        color: blue;
+        font-style: italic;
+
+    }
+</style>-->
+
+<!--id selector-->
+<!--<style>
+    #heading1{
+        color: red;
+        font-style: italic;
+        text-align: center;
+
+    }
+    #heading2{
+        color: yellow;
+        font-style: italic;
+        text-align: center;
+
+    }
+    .para{
+        color: blue;
+        font-weight: bolder;
+        font-size: 45px;
+    }
+</style>-->
+
+
+<!--group selector
+<style>
+    h1, p{
+        color: red;
+    }
+</style>-->
+
+<!--descendant selector
+<style>
+div p{
+    color: red;
+}
+</style>-->
+
+<!--child selector
+<style>
+    span {
+        background-color: aqua;
+    }
+div > span{
+    color: yellow;
+}
+</style>-->
+
+<!--adjacent sibling selctor
+<style>
+   h1 + p{
+    color: red;
+    font-style: italic;
+}
+</style>-->
+
+<!--if we have to select any one we want than we to gives that many p's(general sibling selector)
+<style>
+    h1 + p + P + p{
+        color: green;
+        font-style: italic;
+    }
+</style>-->
+
+
+
+
+<!--general sibling selector
+<style>
+    h1 ~ p{
+        color: green;
+        fontstyle: italic;
+    }
+</style>-->
+
+<!--psuedoclass functions-->
+
+<!--<style>
+    h1:hover{
+        color: red;
+        font-style: italic;
+    }
+</style>-->
+
+<!--<style>
+button{
+    padding: 7px 35px;
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+button:hover{
+    background-color: red;
+    cursor: pointer;
+    border: none;
+    border-radius: 0px;
+    padding: 15px 60px;
+}
+
+h1:hover{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+}
+
+</style>-->
+
+<style>
+    input[type="text"]{
+        padding: 10px 20px;
+        margin: 10 px;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    </style>
+
+
+
+<!--<style>
+    a:active{
+        color:red;
+    }
+</style>-->
+
+
+
+
+<!--hovered links
+<style>
+a:hover {
+    background: yellow;
+  }
+</style>-->
+
+  <!--Active links 
+  <style>
+  a:active {
+    color: red;
+  }
+  </style>-->
+
+  <!--active paragraphs
+  <style>
+    p:active{
+        background: #eee;
+    }
+
+  </style>-->
+
+  <!--visited links
+  <style>
+  a:visited{
+  color: purple;
+  }
+  </style>-->
+
+  <!--unvisited links
+  <style>
+    a:link{
+        color:blue;
+    }
+  </style>-->
+     
+
+</head>
+<body>
+   <!--<h1> this is demo for selectors </h1>
+    <h2>this is demo</h2>
+    <h3>this is demo</h3>
+    <p>this is para</p>
+    <h4>this is demo</h4>
+    <h5>this is demo</h5>-->
+
+   <!-- <h1 id="heading1">this is demo for selectors</h1>
+    <h1 id="heading2">this is demo</h1>
+    <p class="para">this is para</p>
+    <p >this is para 2</p>-->
+
+   <!-- <h1 id="heading1">this is demo for selectors</h1>
+    <p class="para">this is para</p>-->
+
+   <!-- <div>
+        <p>this is p tag inside the div</p>
+    </div>
+        <p>thid is the p tag ouside the div</p>-->
+
+
+     <!--  <div>
+        <span>
+          Span #1, in the div.
+          <span>Span #2, in the span that's in the div.</span>
+        </span>
+      </div>
+      <span>Span #3, not in the div at all.</span>-->
+
+
+      <!--<h1>heading</h1>
+      <p>paragraph 1</p>
+      <p>paragraph 2</p>
+      <p>paragraph 3</p>-->
+
+      <!--<h1>heading</h1>
+      <p>paragraph 1</p>
+      <p>paragraph 2</p>
+      <p>paragraph 3</p>-->
+
+     <!--<h1>heading</h1>
+      <p>paragraph 1</p>
+      <p>paragraph 2</p>
+      <p>paragraph 3</p>-->
+
+     <!--<h1>heading</h1>-->
+
+      <!--<h1>form</h1>
+      <button>submit</button>-->
+
+     <!--<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator">this is text link</a>-->
+
+    <!-- anchor tag with hover and active property with pseudo classes
+      <p>
+        This paragraph contains a link:
+        <a href="#">This link will turn red while you click on it.</a>
+        The paragraph will get a gray background while you click on it or the link.
+      </p>-->
+
+
+      <!--attribute selector-->
+      <form> 
+      <input type="text" placeholder="text enter">
+      <input type="password" placeholder="password enter">
+      </form>
+    
+</body>
+</html>

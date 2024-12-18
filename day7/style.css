@@ -1,0 +1,51 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Landing Section */
+.landing {
+    background: url("./images/landpage.jpeg");
+    background-size: cover; 
+    background-position: center; 
+    height: 100vh; 
+    background-color: rgba(0, 0, 0, 0.3); 
+    text-align: center; 
+}
+
+/* Heading Styling */
+.landing h1 {
+    padding-top: 200px;
+    font-size: 50px;
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+}
+
+/* Paragraph Styling */
+.landing p {
+    margin-top: 20px;
+    font-size: 22px;
+    color: hsla(45, 100%, 50%, 0.9); 
+    font-style: italic;
+}
+
+/* Button Styling */
+button {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: rgb(255, 165, 0); 
+    color: #fff; /* White text */
+    border: 2px solid rgba(255, 140, 0, 0.8); 
+    font-size: 18px;
+    border-radius: 8px; 
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #ff8c00; 
+    color: #333; 
+}
+
